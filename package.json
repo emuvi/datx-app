@@ -1,0 +1,16 @@
+{
+  "name": "datx-app",
+  "displayName": "DatxApp",
+  "description": "DatxApp is a Qinpel user application interacting with the Fitx program that features a toolbox with a series of data base functionalities.",
+  "keywords": [], 
+  "repository": "https://github.com/emuvi/datx-app",
+  "author": "Éverton M. Vieira",
+  "license": "LGPL-3.0-only",
+  "version": "0.1.0",
+  "main": "./build/main.js",
+  "types": "./types/main.d.ts",
+  "dependencies": {
+    "qinpel-cps": "file:../qinpel-cps",
+    "qinpel-res": "file:../qinpel-res"
+  }
+}
